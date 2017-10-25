@@ -1,3 +1,14 @@
+/** 
+* Payroll App asks for user input and validates it. Payroll objects
+* are added to an array list based on the validated input. The array
+* list is displayed using toString. The user then inputs an id to
+* be deleted. If the id does not exist, the user is prompted to enter
+* a different id until a valid one is entered. Afterwards, another
+* worker's payroll information is entered and added to the array list.
+* The updated array list is displayed again. 
+* @author (Chuck Swisher) 
+* @version (Project 6) 
+*/ 
 import java.util.*;
 
 public class PayrollApp{
